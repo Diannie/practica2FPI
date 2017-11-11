@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="practica2.css">
+  </head>
+  <body>
+    <div class="container">
+        <form id="signup" method="POST" action="practica2.php">
+          <div class="header">
+            <h1>Inicia sesión</h1>
+          </div>
+          <div class="inputs">
+            <label>Usuario: </label><input type="text" name="usuario" placeholder="Usuario" />
+            <br/><br/>
+            <label>Contraseña: </label><input type="password" name="pass" placeholder="Contraseña" />
+            <br/><br/>
+            <input id="submit" onclick="Logging()" value="Iniciar Sesion"/>
+          </div>
+        </form>
+    </div>
+  <script src="practica2.js"></script>
+  </body>
+</html>
