@@ -1,2 +1,0 @@
-correo: fpi_ues@protonmail.com
-asunto: practica_2
